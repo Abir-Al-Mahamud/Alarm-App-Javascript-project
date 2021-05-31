@@ -1,0 +1,1 @@
+*This clock app will entail a multitude of functionalities (alarm, worldwide times, stopwatch and more) as well as a cool time game*
