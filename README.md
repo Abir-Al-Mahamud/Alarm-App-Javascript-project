@@ -30,12 +30,15 @@ So my goal is to create an alarm app that will be unique and force the deepest o
 
 
 
-**Wireframes**
+##Wireframes
 
 This app will consist of a simple layout of buttons to select from the different features. It will also include links to my github and linkedIn.
 Start, stop, reset, edit, color and theme selection will also be included on the page.
 
-**Architecture and Technologies**
+![Screen Shot 2021-06-01 at 10 29 09 AM](https://user-images.githubusercontent.com/75746588/120340733-49a71f80-c2c4-11eb-906d-4fdb735474e3.png)
+
+
+##Architecture and Technologies
 
 * Javascript for the game logic
 * Foo.js with HTML5 Baz
