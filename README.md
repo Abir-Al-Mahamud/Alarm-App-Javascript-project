@@ -1,4 +1,4 @@
-*This clock app will entail a multitude of functionalities (alarm, worldwide times, stopwatch and more) as well as a cool time game*
+*This clock app will entail a multitude of functionalities (alarm, worldwide times, stopwatch and more) as well as a cool time visuals*
 
 **Background/Overview**
 *For years I struggled with deep sleep issues, i would constantly sleep right through my obnoxiously loud alarm that would wake up everyone but me.
@@ -8,7 +8,7 @@ So my goal is to create an alarm app that will be unique and force the deepest o
 
 * In TimeTek users will be able to user alarms that make different sounds based on when the time set by user is reached.
 * Users will have access to a stop watch will go on forever until user presses stop.
-* Users will be able to play a simple time game 
+* Users will be able to play a simple time visual 
 * Users will be able to see the time around the world
 
 **Implementation timeline**
@@ -20,8 +20,8 @@ So my goal is to create an alarm app that will be unique and force the deepest o
 *To deal with the count down and count up
 ## World clock - 1 day
 *Gain access to worldwide times
-## Time game - 2 days
-*Make a cool quirky unique time game/visual that would aid a person to fall asleep.
+## Time Visual - 2 days
+*Make a cool quirky unique time visual that would aid a person to fall asleep.
 ## Bonus features
 
 * It will also include a description of the website and how to use it.
@@ -40,8 +40,8 @@ Start, stop, reset, edit, color and theme selection will also be included on the
 
 ##Architecture and Technologies
 
-* Javascript for the game logic
-* Foo.js with HTML5 Baz
+* Javascript for the Visual logic
+* Foo.js with HTML5 Baz as the structure of the website
 * Browserify
 
 
