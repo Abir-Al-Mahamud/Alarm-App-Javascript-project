@@ -15,13 +15,13 @@ So my goal is to create an alarm app that will be unique and force the deepest o
 
 ## Alarm clock - 1 day
 *This also includes any installation procedures 
-
 ## Stopwatch/Timer - 1 day
 *To deal with the count down and count up
 ## World clock - 1 day
 *Gain access to worldwide times
 ## Time Visual - 2 days
 *Make a cool quirky unique time visual that would aid a person to fall asleep.
+* This visual would be a moving visual that would utilize canvas.
 ## Bonus features
 
 * It will also include a description of the website and how to use it.
