@@ -24,9 +24,45 @@ body {
     background-color: rgba(255, 255, 255, .9);
     border-radius: 50%;
     border: 4px solid black;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+#game {
+    width: 900px;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin: auto;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%  ;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 390px;
+    z-index: 1;
+}
+
+/* #block{
+    width: 880px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 110px;
+    margin-top: -20px;
+} */
+
+.hole{
+    width: 30px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 110px;
+    margin-top: -20px;
 }
 
 .clock .number {
