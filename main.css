@@ -1,3 +1,5 @@
+/* @import "./master.css"; */
+
 *, *::after, *::before {
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,31 +32,30 @@ body {
 }
 #game {
     width: 900px;
-    height: 500px;
-    /* border: 1px solid black; */
+    height: 900px;
+    border: 1px solid black;
     margin: auto;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%  ;
+    border-radius: 50%;
 }
 #character{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: red;
     border-radius: 50%;
     position: relative;
     top: 440px;
     left: 390px;
-    z-index: 1;
+    z-index: 100;
 }
 
-/* #block{
+.block{
     width: 880px;
     height: 20px;
     background-color: black;
     position: relative;
-    top: 110px;
+    top: 1010px;
     margin-top: -20px;
-} */
+}
 
 .hole{
     width: 30px;
@@ -115,7 +116,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-}
+} 
 
 .clock .hand.second{
     position: absolute;
@@ -137,3 +138,8 @@ body {
     height: 20%;
     background-color: black;
 }
+
+/* body{
+    background-image: url("stair2.png");
+    background-color: gold;
+} */

@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./main.css" />
-    <script defer src="./src/script.js"></script>
+    <!-- <script defer src="./src/script.js"></script> -->
+    <script defer src="./src/game.js"></script>
     <link rel="stylesheet" href="master.css">
     <title>SleepTek by Abir-Al-Mahamud</title>
+    
 </head>
 
 <body>
-    <!-- <canvas></canvas> -->
-    <!-- <script src="./src/script.js"></script> -->
     <div class="tabs">
         <div class="tabs-header">
             <button class="tabs-button tabs-button--active" data-for-tab="1">Alarm</button>
@@ -102,59 +102,15 @@
                 <div class="number number12">12</div>
                 <div id="game">
                     <div id="character"></div>
+
+                    <script defer src="./src/game.js"></script>
                 </div>
             </div>
         </div>
         
     </div>
-    <script>
-        function setupTabs() {
-            document.querySelectorAll('.tabs-button').forEach(button => {
-                button.addEventListener("click", () => {
-                    const header = button.parentElement;
-                    const tabsContainer = header.parentElement;
-                    const tabNumber = button.dataset.forTab;
-                    const tabToActivate = tabsContainer.querySelector(`.tabs-content[data-tab="${tabNumber}"]`);
+    <script src="src/tabs.js"></script>
 
-                    header.querySelectorAll('.tabs-button').forEach(button => {
-                        button.classList.remove("tabs-button--active")
-                    })
-                    tabsContainer.querySelectorAll('.tabs-content').forEach(tab => {
-                        tab.classList.remove("tabs-content--active")
-                    })
-
-                    button.classList.add('tabs-button--active');
-                    tabToActivate.classList.add('tabs-content--active');
-                });
-            });
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            setupTabs();
-
-            document.querySelectorAll('.tabs').forEach(tabsContainer => {
-                tabsContainer.querySelector('.tabs-header .tabs-button').click();
-            })
-        });
-    </script>
-
-    <!-- <div class="clock">
-        <div class="hand hour" data-hour-hand></div>
-        <div class="hand minute" data-minute-hand></div>
-        <div class="hand second" data-second-hand></div>
-        <div class="number number1">1</div>
-        <div class="number number2">2</div>
-        <div class="number number3">3</div>
-        <div class="number number4">4</div>
-        <div class="number number5">5</div>
-        <div class="number number6">6</div>
-        <div class="number number7">7</div>
-        <div class="number number8">8</div>
-        <div class="number number9">9</div>
-        <div class="number number10">10</div>
-        <div class="number number11">11</div>
-        <div class="number number12">12</div>
-    </div> -->
 </body>
 
 </html>
