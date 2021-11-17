@@ -62,8 +62,8 @@ button {
 
 .clock {
     display: block;
-    left: 35vh;
-    top: 10vh;
+    left: 25%;
+    top: 5%;
 }
 
 .tabs-content > :first-child {

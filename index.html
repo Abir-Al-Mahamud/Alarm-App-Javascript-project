@@ -10,26 +10,31 @@
     <script defer src="./src/game.js"></script>
     <link rel="stylesheet" href="master.css">
     <title>SleepTek by Abir-Al-Mahamud</title>
-    
+    <meta property="og:title" content="SleepTek" />
+    <meta property="og:image" content="/assets/jpproject.png" />
+    <meta property="og:description" content="An app that helps with your sleep" />
+    <meta property="og:url" content="https://programmer.github.io/SleepTek-Javascript-project" />
 </head>
 
 <body>
     <div class="tabs">
         <div class="tabs-header">
             <button class="tabs-button tabs-button--active" data-for-tab="1">How To Play</button>
-            <!-- <button class="tabs-button" data-for-tab="2">Stopwatch</button> -->
-            <!-- <button class="tabs-button" data-for-tab="3">Timer</button> -->
-            <button class="tabs-button" data-for-tab="2">Need sleep?</button>
+            <button class="tabs-button" data-for-tab="2">Got Sleep?</button>
         </div>
         <div class="tabs-content tabs-content--active" data-tab="1">
-            <p class="howtoplay">Prepare to be hypnotized into sleep.
-            Keep playing and eventually you may just find
-            yourself dozing off into a deep slumber...
-            Use the left and right arrow keys to move
-            Fall through the holes in order to gain points
-            Avoid hitting the ceiling</p>
+            
             
             <div class="clock">
+                <!-- <div class="center"> -->
+                    <p class="howtoplay">Prepare to be hypnotized into sleep.
+                        Keep playing and eventually you may just find
+                        yourself dozing off into a deep slumber...
+                        <br/>
+                        Use the left and right arrow keys to move
+                        Fall through the holes in order to gain points
+                        Avoid hitting the ceiling or you lose..</p>
+                <!-- </div> -->
                 <div class="hand hour" data-hour-hand></div>
                 <div class="hand minute" data-minute-hand></div>
                 <div class="hand second" data-second-hand></div>
