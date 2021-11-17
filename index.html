@@ -16,13 +16,19 @@
 <body>
     <div class="tabs">
         <div class="tabs-header">
-            <button class="tabs-button tabs-button--active" data-for-tab="1">Alarm</button>
-            <button class="tabs-button" data-for-tab="2">Stopwatch</button>
-            <button class="tabs-button" data-for-tab="3">Timer</button>
-            <button class="tabs-button" data-for-tab="4">Need sleep?</button>
+            <button class="tabs-button tabs-button--active" data-for-tab="1">How To Play</button>
+            <!-- <button class="tabs-button" data-for-tab="2">Stopwatch</button> -->
+            <!-- <button class="tabs-button" data-for-tab="3">Timer</button> -->
+            <button class="tabs-button" data-for-tab="2">Need sleep?</button>
         </div>
         <div class="tabs-content tabs-content--active" data-tab="1">
-            <h2>Set your alarm</h2>
+            <p class="howtoplay">Prepare to be hypnotized into sleep.
+            Keep playing and eventually you may just find
+            yourself dozing off into a deep slumber...
+            Use the left and right arrow keys to move
+            Fall through the holes in order to gain points
+            Avoid hitting the ceiling</p>
+            
             <div class="clock">
                 <div class="hand hour" data-hour-hand></div>
                 <div class="hand minute" data-minute-hand></div>
@@ -41,7 +47,7 @@
                 <div class="number number12">12</div>
             </div>
         </div>
-        <div class="tabs-content" data-tab="2">
+        <div class="tabs-content" data-tab="3">
             <h2>Set a stopwatch</h2>
             <div class="clock">
                 <script defer src="./src/script.js"></script>
@@ -82,7 +88,7 @@
                 <div class="number number12">12</div>
             </div>
         </div>
-        <div class="tabs-content" data-tab="4">
+        <div class="tabs-content" data-tab="2">
             <h2>Have fun...</h2>
             <div class="clock">
                 <div class="hand hour" data-hour-hand></div>

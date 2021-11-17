@@ -6,6 +6,17 @@ let counter = 0;
 let currentBlocks = [];
 let gameOver = true;
 let gameStart = false;
+let startButton;
+let playing = false;
+
+document.body.style.backgroundImage = "url('./assets/Hypnosis.png')";
+
+
+function startGame() {
+    startButton.destroy();
+    // ball.body.velocity.set(150, -150);
+    playing = true;
+}
 
 function moveLeft() {
     let left =
@@ -51,7 +62,7 @@ let blocks = setInterval(function() {
     }
 
 
-    if (blockLastTop < 400 || counter === 0) {
+    if (blockLastTop < 780 || counter === 0) {
         let block = document.createElement("div");
         let hole = document.createElement("div");
         block.setAttribute("class", "block");
@@ -60,7 +71,7 @@ let blocks = setInterval(function() {
         hole.setAttribute("id", "hole"+counter);
         block.style.top = blockLastTop + 100 + "px";
         hole.style.top = holeLastTop + 100 + "px";
-        let random = Math.floor(Math.random() * 360);
+        let random = Math.floor(Math.random() * 720);
         hole.style.left = random + "px";
         game.appendChild(block);
         game.appendChild(hole);
@@ -110,10 +121,12 @@ let blocks = setInterval(function() {
         }
     }
     if (drop === 0) {
-        if (characterTop < 480) {
+        if (characterTop < 850) {
             character.style.top = characterTop + 2 + "px";
         }
     } else {
         character.style.top = characterTop - 0.5 + "px";
     }
 }, 1)
+
+

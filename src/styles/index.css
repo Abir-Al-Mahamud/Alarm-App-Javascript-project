@@ -5,15 +5,16 @@
 }
 
 body {
-    background: linear-gradient(to right hsl(200, 100%, 50%), hsl(150, 100%, 50%));
-
+    /* background: linear-gradient(to right hsl(200, 100%, 50%), hsl(150, 100%, 50%)); */
+    background-image: url("https://unsplash.com/photos/xdai21Y9pek");
+    background-color: #cccccc;
 }
 
 .clock{
     width: 300px;
     height: 300px;
     background-color: rgba(255, 255, 255, .9);
-    border-radius: 50%;
+    border-radius: 0%;
     border: 2px solid blue;
 }
 
