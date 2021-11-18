@@ -26,5 +26,10 @@ Also to deal with the blocks in the game refer to the following code:
 
 <img width="689" alt="Screen Shot 2021-11-17 at 11 06 28 PM" src="https://user-images.githubusercontent.com/75746588/142350014-9804553b-8e89-4b14-9d79-9b2c568b50b1.png">
 
+With a game over alert!
+
+<img width="1407" alt="Screen Shot 2021-11-17 at 11 17 25 PM" src="https://user-images.githubusercontent.com/75746588/142350910-ce3a11f4-3e0c-44fb-87e0-833476525e0f.png">
+
+
 # Future of the App
 Currently the application is optimized for mouse click event listeners. Making it mobile friendly and adding touch event listeners is the hopefully the future of this app.
