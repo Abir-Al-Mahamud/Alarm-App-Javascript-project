@@ -1,52 +1,30 @@
-*This clock app will entail a multitude of functionalities (alarm, worldwide times, stopwatch and more) as well as a cool time visuals*
+# SleepTek
 
-**Background/Overview**
-*For years I struggled with deep sleep issues, i would constantly sleep right through my obnoxiously loud alarm that would wake up everyone but me.
-So my goal is to create an alarm app that will be unique and force the deepest of sleepers to wakeup from their slumbers *
+## Background and overview
 
-**Functionality and MVPs**
+At times we find ourselves browsing through our phones at night just before going to bed for hours and hours. We try with great difficulty to fall asleep for work/school the next day, however we fail multiple times a week. This app will hopefully put you to sleep through its straining effects on your retina.
 
-* In TimeTek users will be able to user alarms that make different sounds based on when the time set by user is reached.
-* Users will have access to a stop watch will go on forever until user presses stop.
-* Users will be able to play a simple time visual 
-* Users will be able to see the time around the world
+## Technologies
 
-**Implementation timeline**
+* Javascript: Most commonly used programming language in web development. Javascript was used in creating the game logic and manipulating the DOM.
+* HTML 5: Building block of the web, used to describe the structure of the web application
+* CSS: Styling and adding aesthetics for better User Interaction
 
-## Alarm clock - 1 day
-*This also includes any installation procedures 
-## Stopwatch/Timer - 1 day
-*To deal with the count down and count up
-## World clock - 1 day
-*Gain access to worldwide times
-## Time Visual - 2 days
-*Make a cool quirky unique time visual that would aid a person to fall asleep.
-* This visual would be a moving visual that would utilize canvas.
-## Bonus features
+<img width="1437" alt="Screen Shot 2021-11-17 at 11 02 38 PM" src="https://user-images.githubusercontent.com/75746588/142349540-3e705732-a6b3-4fb4-803a-8539b794229f.png">
 
-* It will also include a description of the website and how to use it.
-* Also a few key commands that will work with the app
-* Readme
+# Functionality
 
+To create the game logic the under the hood  pixel data was required. Using a variety of functions and click handlers allows for the user to move the ball left and right. The gravity element allows for the ball to fall through the gaps enabling the player to stay alive longer.
 
+<img width="1437" alt="Screen Shot 2021-11-17 at 11 02 30 PM" src="https://user-images.githubusercontent.com/75746588/142349802-0a40e49a-3d1f-4ea7-b4c7-8055d75a034b.png">
 
-##Wireframes
+Refer to the following pieces of code for a deeper understanding:
 
-This app will consist of a simple layout of buttons to select from the different features. It will also include links to my github and linkedIn.
-Start, stop, reset, edit, color and theme selection will also be included on the page.
+<img width="647" alt="Screen Shot 2021-11-17 at 11 06 19 PM" src="https://user-images.githubusercontent.com/75746588/142349900-85d424a8-dd1a-467f-983c-b8de0918c571.png">
 
-![Screen Shot 2021-06-01 at 10 29 09 AM](https://user-images.githubusercontent.com/75746588/120340733-49a71f80-c2c4-11eb-906d-4fdb735474e3.png)
+Also to deal with the blocks in the game refer to the following code:
 
+<img width="689" alt="Screen Shot 2021-11-17 at 11 06 28 PM" src="https://user-images.githubusercontent.com/75746588/142350014-9804553b-8e89-4b14-9d79-9b2c568b50b1.png">
 
-##Architecture and Technologies
-
-* Javascript for the Visual logic
-* Foo.js with HTML5 Baz as the structure of the website
-* Browserify
-
-
-
-
-
-
-
+# Future of the App
+Currently the application is optimized for mouse click event listeners. Making it mobile friendly and adding touch event listeners is the hopefully the future of this app.
