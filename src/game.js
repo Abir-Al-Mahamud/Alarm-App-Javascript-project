@@ -90,7 +90,7 @@ let blocks = setInterval(function() {
     if (characterTop <= 0) {
         alert("Game over. The final score: "+(counter-9));
         clearInterval(blocks);
-        location.reload();
+        // location.reload();
         gameOver = true;
         // if(gameOver === true){
         //     let button = document.createElement("button");

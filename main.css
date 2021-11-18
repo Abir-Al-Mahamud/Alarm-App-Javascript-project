@@ -19,9 +19,9 @@ body {
     cursor: pointer;
 }
 .clock{
-    position: absolute;
-    width: 900px;
-    height: 900px;
+    /* position: absolute; */
+    width: 800px;
+    height: 800px;
     top: 25%;
     left: 25%;
     right: 25%;
@@ -121,13 +121,13 @@ body {
 
 .clock::after{
     content: '';
-    position: absolute;
+    /* position: absolute; */
     background-color: black;
     z-index: 11;
-    width: 15px;
-    height: 15px;
-    top: 50%;
-    left: 50%;
+    width: 5px;
+    height: 5px;
+    top: 40%;
+    left: 40%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
 } 
