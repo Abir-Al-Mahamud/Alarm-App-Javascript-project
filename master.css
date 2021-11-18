@@ -63,7 +63,7 @@ button {
 .clock {
     display: block;
     left: 25%;
-    top: 5%;
+    top: 10%;
 }
 
 .tabs-content > :first-child {
