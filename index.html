@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="master.css">
     <title>SleepTek by Abir-Al-Mahamud</title>
     <meta property="og:title" content="SleepTek" />
-    <meta property="og:image" content="/assets/jpproject.png" />
+    <meta property="og:image" content="/assets/jproject.png" />
     <meta property="og:description" content="An app that helps with your sleep" />
     <meta property="og:url" content="https://abir-al-mahamud.github.io/SleepTek/" />
 </head>
@@ -19,10 +19,10 @@
 <body>
     <div class="tabs">
         <div class="tabs-header">
-            <button class="tabs-button tabs-button--active" data-for-tab="1">How To Play</button>
-            <button class="tabs-button" data-for-tab="2">Got Sleep?</button>
+            <button class="tabs-button " data-for-tab="1">Got Sleep?</button>
+            <button class="tabs-button tabs-button--active" data-for-tab="2">How To Play</button>
         </div>
-        <div class="tabs-content tabs-content--active" data-tab="1">
+        <div class="tabs-content" data-tab="2">
             
             
             <div class="clock">
@@ -31,7 +31,8 @@
                         Keep playing and eventually you may just find
                         yourself dozing off into a deep slumber...
                         <br/>
-                        Use the left and right arrow keys to move
+                        Use the left and right arrow keys to move.
+                        <br/>
                         Fall through the holes in order to gain points
                         Avoid hitting the ceiling or you lose..</p>
                 <!-- </div> -->
@@ -93,7 +94,7 @@
                 <div class="number number12">12</div>
             </div>
         </div>
-        <div class="tabs-content" data-tab="2">
+        <div class="tabs-content tabs-content--active" data-tab="1">
             <h2>Have fun...</h2>
             <div class="clock">
                 <div class="hand hour" data-hour-hand></div>
@@ -113,9 +114,9 @@
                 <div class="number number12">12</div>
                 <div id="game">
                     <div id="character"></div>
-
                     <script defer src="./src/game.js"></script>
                 </div>
+                <button class="restart" onClick={window.location.reload()}>Restart Game</button>
             </div>
         </div>
         

@@ -15,7 +15,9 @@ body {
     overflow: hidden;
     
 }
-
+.restart:hover{
+    cursor: pointer;
+}
 .clock{
     position: absolute;
     width: 900px;
@@ -144,7 +146,7 @@ body {
     text-align: center;
     position: absolute;
     left: 25%;
-    top: 35%;
+    top: 37%;
     width: 500px;
     height: 20%;
     color: red;

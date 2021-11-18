@@ -62,7 +62,7 @@ let blocks = setInterval(function() {
     }
 
 
-    if (blockLastTop < 780 || counter === 0) {
+    if (blockLastTop < 790 || counter === 0) {
         let block = document.createElement("div");
         let hole = document.createElement("div");
         block.setAttribute("class", "block");
@@ -99,7 +99,7 @@ let blocks = setInterval(function() {
             }
         }
     }
-
+    
     for (let i = 0; i < currentBlocks.length; i++) {
         let current = currentBlocks[i];
         let iblock = document.getElementById("block"+current);
@@ -121,7 +121,7 @@ let blocks = setInterval(function() {
         }
     }
     if (drop === 0) {
-        if (characterTop < 850) {
+        if (characterTop < 860) {
             character.style.top = characterTop + 2 + "px";
         }
     } else {
