@@ -43,6 +43,7 @@ document.addEventListener("keydown", event => {
         if (event.key === "ArrowRight") {
             interval = setInterval(moveRight, 1);
         }
+       
     }
 });
 
@@ -89,15 +90,16 @@ let blocks = setInterval(function() {
     if (characterTop <= 0) {
         alert("Game over. The final score: "+(counter-9));
         clearInterval(blocks);
+        location.reload();
         gameOver = true;
-        if(gameOver === true){
-            let button = document.createElement("button");
-            block.setAttribute("class", "Start Game");
-            button.onclick(gameStart=true)
-            if(gameStart === true){
-                location.reload();
-            }
-        }
+        // if(gameOver === true){
+        //     let button = document.createElement("button");
+        //     button.setAttribute("class", "Start Game");
+        //     button.onclick(gameStart=true)
+        //     if(gameStart === true){
+        //         location.reload();
+        //     }
+        // }
     }
     
     for (let i = 0; i < currentBlocks.length; i++) {
