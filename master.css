@@ -16,12 +16,13 @@
     display: block;
 
     /* padding-right: 100px; */
-
+    
     background: lightgray;
     border: none;
     width: 100%;
     outline: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .tabs-button:active {
